@@ -1,0 +1,67 @@
+@font-face{
+    font-family:'font1';
+    src :url("../font/PoiretOne-Regular.ttf");    
+}
+
+@font-face{
+    font-family:'font2';
+    src :url("../font/Jura-Light.ttf");    
+}
+
+@font-face{
+    font-family:'font3';
+    src :url("../font/Ubuntu-Light.ttf");    
+}
+
+
+
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box1 {
+    background: url(../img/bg1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.box1 .content {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+}
+
+.box1 .content h1{
+    font-family: 'font3','sans-serif';
+    font-size: 500%;
+    color: #fff;
+}
+
+.box1 .getbtn {
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 9px;
+    border: 3px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-family: 'font3'
+}
+
+#stuff {
+    font-size: 30px;
+    font-family: 'calibri';
+}
